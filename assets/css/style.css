@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.tela {
+    background-color: #1f1f1f;
+    width: 380px;
+    /* height: 615px; */
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.profile-data {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.photo {
+    margin-bottom: 30px
+}
+
+.name,
+.description {
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 22px;
+}
+
+.address {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.address span {
+    color: #ceeb55;
+}
+
+.description {
+    color: #ddd;
+    font-size: 14px;
+}
+
+.links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    border: 1px solid transparent;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.links a:hover {
+    background-color: #414141;
+    transition: .5s;
+}
